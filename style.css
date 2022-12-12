@@ -1,0 +1,217 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    background-color: #009b4e;
+    width: 100%;
+    height: 91px;
+    position: sticky;
+    align-items: center;
+    display: flex;
+    top: 0;
+}
+.logo img{
+    height: 60px;
+    width: 70px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.header-menu{
+    width: 30%;
+    padding-left: 100px;
+}
+.header-menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;    
+}
+.header-menu ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.media{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+    margin-left: 400px;
+    
+}
+.body1 img{
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+}
+.button1{
+    margin-left: 400px;
+   
+    
+    left: 22.5%;
+    background-color: rgb(228,27,79);
+    color: white;
+    border-color: white;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 17px;
+    width: 160px;
+    height: 45px;
+    border-radius: 6px;
+}
+.button1:hover{
+    border-color: black;
+}
+body{
+    margin: 0%;
+}
+.body2{
+    margin-top: -4px;
+    height: 30px;
+    background-color: rgb(228,27,79);
+    color: white;
+    padding-left: 210px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button2{
+    background-color: black;
+    color: white;
+    border-color: white;
+    width: 200px;
+    height: 45px;
+    margin-left: 150px;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: bolder;
+    margin-top: -10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.button2:hover{
+    background-color: grey;
+}
+.newdrip{
+    padding-left: 350px;
+    padding-top: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    
+}
+.drip1{
+    padding-left: 350px;
+    padding-top: 15px;
+}
+.video{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.wakandaforever{
+    width: 100%;
+    position: relative;
+}
+.wakandaforever img{
+    width: 100%;
+    margin-top: 30px;
+}
+.button3{
+    top: 79%;
+    right: 67.5%;
+    position: absolute;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #009b4e;
+    margin-left: 290px;
+    width: 200px;
+    height: 50px;
+}
+.button3:hover{
+    background-color: white;
+    color: black;
+}
+.footer{
+    height: 0%;
+}
+.footerleft{
+    background-color: #009b4e;
+    width: 50%;
+    height: 500px;
+    margin-top: -4px;
+}
+.footerright{
+    background-color: #009b4e;
+    width: 100%;
+    height: 500px;
+}
+.connect {
+    width: 190px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    padding-top: 80px;
+    color: white;
+    margin-left: 430px;
+    background-color: #009b4e;
+
+}
+.socialmedia{
+    background-color: #009b4e;
+    width: 200px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-left: 490px;
+    margin-top: 40px;
+}
+.spritefooter{
+    background-color: #009b4e;
+    margin-left: 250px;
+    padding-top: px;
+    size: 30px;
+    height: 0%;
+    width: 0%;
+
+}
+.products{
+    background-color: #009b4e;
+    padding-left: 820px;
+    margin-top: -500px;
+    padding-top: 80px;
+    width: 300px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    
+}
+.spriteproducts{
+    color: white;
+    margin-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+
+}
+.rights{
+    color: white;
+    padding-top: 30px;
+    padding-left: 450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.rules{
+    color: white;
+    padding-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
